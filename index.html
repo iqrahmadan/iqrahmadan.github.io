@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -20,17 +20,15 @@
             <span class="h3 fw-bold d-block d-lg-none">Iqbal Rahmadan</span>
             <img src="./assets/images/Person2.jpg" class="d-none d-lg-block " alt="">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto flex-lg-column text-lg">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
 
               <li class="nav-item">
                 <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#blog">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#experience">Experience</a>
@@ -58,14 +56,18 @@
     <!--CONTAIN WRAPER-->
     <Div id="content-wrapper">
         <!--Home-->
-        <section id="home" class="full-height ">
+        <section id="home" class="full-height px-lg-5">
           <div class="container">
             <div class="row">
-              <div class="col-lg-11">
-                <h1 > Hi. Saya Iqbal Rahmadan, Saya Seorang IT Infrastructure </h1>
-                <p color >Ingin mengenal saya Lebih dekat Silakan jelajahi website ini.</p>
-                <div><a href="#work" class="btn btn-brand me-3" >Explore My work</a>
-                  <a href="#" class="link-custom">Call: (62) 81286878710</a> <logo> whatapps
+              <div class="col-lg-10">
+                <h1 > Hi. I'm Iqbal Rahmadan, I'm an IT Infrastructure </h1>
+                <p color >Graduate of Informatics Engineering from Budiluhur University. Experienced in the IT field for 7 years. 
+                    Capable of analyzing and thinking critically before making decisions.enjoys solving a complex and challenging real-world problems
+                     Seeking opportunities to develop and grow within a Technology Company.</p>
+                <div data-aos="fade-up" data-aos-delay="600">
+                    <a href="#experience" class="btn btn-brand me-4" >Explore My work</a>
+                  <a href="#" class="link-custom">Call: (62) 81286878710</a> <logo> facebook
+
                   </logo>
                 </div>
               </div>
@@ -74,15 +76,15 @@
         </section>
         <!--//Home-->
 
-        <!--//Service-->
-        <section id="services" class="full-height ">
+        <!--//Experience-->
+        <section id="experience" class="full-height ">
           <div class="container">
             <div class="row">
                   <div class="col-lg-8">
-                      <h6 class="text-brand">SERVICESsdsvhvdh</h6>
-                      <h1>Services That I Provide</h1>
+                      <h4 class="text-brand">Experiences</h4>
+                      <h1> PT Astari Niagara Internasional</h1>
                   </div>
-              </div>
+              
 
               <div class="row gy-4">
 
@@ -122,11 +124,12 @@
               </div>
 
           </div>
+        </div>
       </section>
-      <!-- SERVICES -->
+      <!-- Experience -->
 
       <!-- WORK -->
-      <section id="work" class="full-height px-lg-5">
+      <section id="experiences" class="full-height px-lg-5">
           <div class="container">
 
               <div class="row pb-4" data-aos="fade-up">
